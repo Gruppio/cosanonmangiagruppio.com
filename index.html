@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="L'archivio ufficiale di ciò che Gruppio non mangia, con statistiche alimentari rigorosamente stimate e aggiornate in tempo reale."
+    />
+    <meta name="theme-color" content="#f3ead8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:title" content="Cosa non mangia Gruppio?" />
+    <meta
+      property="og:description"
+      content="Rifiuti alimentari, piadine, ragù e altri dati di fondamentale importanza."
+    />
+    <meta property="og:url" content="https://cosanonmangiagruppio.com/" />
+    <title>Cosa non mangia Gruppio?</title>
+    <link rel="canonical" href="https://cosanonmangiagruppio.com/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Torna all'inizio">
+        <span>CNM</span>
+        <span>GRUPPIO</span>
+      </a>
+      <nav aria-label="Navigazione principale">
+        <a href="#rifiuti">I no</a>
+        <a href="#statistiche">I numeri</a>
+        <a href="#metodo">Il metodo</a>
+      </nav>
+    </header>
+
+    <main id="contenuto">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Archivio alimentare personale · Est. 1988</p>
+          <h1 id="hero-title">
+            Cosa non mangia
+            <span>Gruppio?</span>
+          </h1>
+          <p class="hero-intro">
+            Una risposta definitiva, documentata e inutilmente precisa a una domanda
+            che continua a tornare.
+          </p>
+          <a class="button button-dark" href="#rifiuti">Consulta l’archivio</a>
+        </div>
+
+        <div class="hero-seal" aria-hidden="true">
+          <svg viewBox="0 0 380 380" role="img">
+            <circle class="seal-ring" cx="190" cy="190" r="171" />
+            <path
+              class="fish-body"
+              d="M96 196c48-73 126-82 188-8-62 74-140 65-188-8m188 8 52-43v86z"
+            />
+            <circle class="fish-eye" cx="148" cy="174" r="6" />
+            <path class="water-line" d="M58 259c31-24 61 24 92 0s61 24 92 0 61 24 92 0" />
+            <path class="ban-line" d="M66 68 314 316" />
+          </svg>
+          <p>Zero fauna acquatica<br />dal 1990*</p>
+        </div>
+
+        <dl class="hero-facts" aria-label="Coordinate dell'indagine">
+          <div>
+            <dt>Soggetto</dt>
+            <dd>Gruppio</dd>
+          </div>
+          <div>
+            <dt>Altezza</dt>
+            <dd>1,83 m</dd>
+          </div>
+          <div>
+            <dt>Peso</dt>
+            <dd>92 kg</dd>
+          </div>
+          <div>
+            <dt>Attendibilità</dt>
+            <dd>Stimata</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="manifesto" aria-labelledby="manifesto-title">
+        <p class="section-index">01 / Il principio</p>
+        <div class="manifesto-grid">
+          <h2 id="manifesto-title">
+            Non mangio niente che <em>vive nell’acqua.</em>
+          </h2>
+          <div class="manifesto-copy">
+            <p>
+              Una volta dicevo di non mangiare nessun animale che nuota. Poi è
+              intervenuto Cece, l’ex postino di San Giovanni in Persiceto.
+            </p>
+            <blockquote>
+              <p>
+                «Beh, il maiale lo mangi pure. Il maiale nuota, se tu lo spingi in
+                fondo al macero.»
+              </p>
+              <cite>— Cece, con logica inattaccabile</cite>
+            </blockquote>
+            <p>
+              Da quel giorno non dico più che non mangio animali che nuotano. Dico
+              che non mangio niente che vive nell’acqua.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="refusals" id="rifiuti" aria-labelledby="refusals-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">02 / L’archivio dei no</p>
+            <h2 id="refusals-title">La lista ufficiale.</h2>
+          </div>
+          <p>Poche categorie. Nessuna trattativa.</p>
+        </div>
+        <div class="refusal-list" id="refusal-list"></div>
+        <noscript>
+          <p>Attiva JavaScript per consultare l’archivio completo e i contatori.</p>
+        </noscript>
+      </section>
+
+      <section class="statistics" id="statistiche" aria-labelledby="stats-title">
+        <div class="section-heading section-heading-light">
+          <div>
+            <p class="section-index">03 / Centrale statistica</p>
+            <h2 id="stats-title">Quello che invece mangio.</h2>
+          </div>
+          <p>
+            Stima live dal <time datetime="1990-10-03">3 ottobre 1990</time>.
+          </p>
+        </div>
+
+        <div class="food-stats" id="food-stats"></div>
+
+        <div class="biological-intro">
+          <p class="section-index">04 / Altri indicatori fondamentali</p>
+          <h2>Il corpo presenta il conto.</h2>
+        </div>
+        <div class="biological-stats" id="biological-stats"></div>
+
+        <p class="last-update">
+          Calcolo effettuato alle
+          <time id="last-update" aria-live="off"></time>
+          · I contatori si aggiornano automaticamente.
+        </p>
+      </section>
+
+      <section class="method" id="metodo" aria-labelledby="method-title">
+        <p class="section-index">05 / Nota metodologica</p>
+        <div class="method-grid">
+          <div>
+            <h2 id="method-title">Rigore discutibile.<br />Conti trasparenti.</h2>
+            <p>
+              Queste statistiche sono stime lineari, non un diario alimentare. Le
+              abitudini vengono considerate costanti nel tempo: un’ipotesi assurda,
+              ma perfettamente adeguata allo scopo.
+            </p>
+          </div>
+          <dl class="method-list" id="method-list"></dl>
+        </div>
+      </section>
+
+      <section class="about" aria-labelledby="about-title">
+        <p class="section-index">06 / Informazioni personali verificate</p>
+        <h2 id="about-title">About me</h2>
+        <p>Ho un gran cazzo!</p>
+      </section>
+
+      <section class="share" aria-labelledby="share-title">
+        <p class="section-index">Il dato è un bene comune</p>
+        <h2 id="share-title">Adesso lo sai anche tu.</h2>
+        <button class="button button-light" id="share-button" type="button">
+          Diffondi i dati
+        </button>
+        <p class="share-feedback" id="share-feedback" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="current-year"></span> Gruppio</p>
+      <p>Fatto con dati stimati e convinzioni solidissime.</p>
+    </footer>
+
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="icon-water" viewBox="0 0 64 64">
+        <path d="M8 31c10-16 27-18 40-1-13 16-30 14-40-1Zm40-1 10-9v18Z" />
+        <circle cx="20" cy="27" r="1.8" class="solid" />
+        <path d="M8 48c8-6 16 6 24 0s16 6 24 0" />
+      </symbol>
+      <symbol id="icon-mushroom" viewBox="0 0 64 64">
+        <path d="M13 31c0-12 8-20 19-20s19 8 19 20Z" />
+        <path d="M27 31v9c0 8-4 10-7 12h24c-3-2-7-4-7-12v-9" />
+        <circle cx="23" cy="23" r="2" class="solid" />
+        <circle cx="38" cy="19" r="2" class="solid" />
+      </symbol>
+      <symbol id="icon-zucchini" viewBox="0 0 64 64">
+        <path d="M20 49c-7-7 1-22 20-34 5 4 8 8 9 14-13 18-24 27-29 20Z" />
+        <path d="m39 16 2-7 8 6-5 4M22 44l22-20" />
+      </symbol>
+      <symbol id="icon-spinach" viewBox="0 0 64 64">
+        <path d="M32 52C11 43 9 21 25 11c8 5 8 14 7 20 1-10 7-17 16-20 11 17 4 34-16 41Z" />
+        <path d="M32 51V24" />
+      </symbol>
+      <symbol id="icon-ricotta" viewBox="0 0 64 64">
+        <path d="M12 25 32 12l20 13v25H12Z" />
+        <path d="M12 25c12 6 28 6 40 0M22 34h.1M32 40h.1M42 33h.1" />
+      </symbol>
+    </svg>
+  </body>
+</html>
