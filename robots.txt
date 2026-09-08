@@ -1,4 +1,34 @@
 User-agent: *
 Allow: /
 
+# Explicit permissions for major AI search and training crawlers. The wildcard
+# policy above already permits them; these entries keep that intent clear if the
+# generic policy is tightened later.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
 Sitemap: https://cosanonmangiagruppio.com/sitemap.xml

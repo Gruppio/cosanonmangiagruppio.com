@@ -23,3 +23,13 @@ Poi visita <http://localhost:8000>.
 
 Ogni push su `main` attiva il workflow GitHub Pages. Il dominio personalizzato è
 definito in `CNAME` come `cosanonmangiagruppio.com`.
+
+## Indicizzazione
+
+Il sito espone `robots.txt`, `sitemap.xml`, dati strutturati Schema.org e
+`llms.txt`. Dopo una pubblicazione, aggiungi la proprietà
+`https://cosanonmangiagruppio.com/` a Google Search Console, verifica la
+proprietà e invia `https://cosanonmangiagruppio.com/sitemap.xml` dalla sezione
+Sitemap. Per la pagina principale puoi anche usare "Controllo URL" e "Richiedi
+indicizzazione". Google decide comunque autonomamente se e quando inserire una
+pagina nel proprio indice.

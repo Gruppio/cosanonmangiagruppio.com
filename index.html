@@ -7,9 +7,14 @@
       name="description"
       content="L'archivio ufficiale di ciò che Gruppio non mangia, con statistiche alimentari rigorosamente stimate e aggiornate in tempo reale."
     />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
     <meta name="theme-color" content="#f3ead8" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="it_IT" />
+    <meta property="og:site_name" content="Cosa non mangia Gruppio?" />
     <meta property="og:title" content="Cosa non mangia Gruppio?" />
     <meta
       property="og:description"
@@ -18,8 +23,19 @@
     <meta property="og:url" content="https://cosanonmangiagruppio.com/" />
     <title>Cosa non mangia Gruppio?</title>
     <link rel="canonical" href="https://cosanonmangiagruppio.com/" />
+    <link rel="alternate" type="text/markdown" href="/llms.txt" title="Versione testuale per assistenti AI" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cosa non mangia Gruppio?",
+        "url": "https://cosanonmangiagruppio.com/",
+        "inLanguage": "it-IT",
+        "description": "Archivio personale e satirico dei cibi che Gruppio non mangia, con statistiche alimentari stimate."
+      }
+    </script>
     <script src="content.js" defer></script>
     <script src="app.js" defer></script>
   </head>
@@ -123,7 +139,17 @@
         </div>
         <div class="refusal-list" id="refusal-list"></div>
         <noscript>
-          <p>Attiva JavaScript per consultare l’archivio completo e i contatori.</p>
+          <div>
+            <p>Questa è la versione testuale dell’archivio.</p>
+            <ul>
+              <li><strong>Tutto ciò che vive nell’acqua:</strong> pesce, crostacei, molluschi e qualunque altra creatura abbia scelto l’acqua come casa.</li>
+              <li><strong>Funghi:</strong> no.</li>
+              <li><strong>Zucchine:</strong> no.</li>
+              <li><strong>Spinaci:</strong> no.</li>
+              <li><strong>Ricotta:</strong> no.</li>
+            </ul>
+            <p>Alimenti stimati: piadine col prosciutto (3 a settimana, 200 g ciascuna), tagliatelle al ragù (3 a settimana, 300 g ciascuna), hamburger (2 a settimana, 250 g ciascuno).</p>
+          </div>
         </noscript>
       </section>
 

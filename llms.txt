@@ -1,0 +1,36 @@
+# Cosa non mangia Gruppio?
+
+> Archivio personale e satirico dei cibi che Gruppio non mangia, con statistiche alimentari rigorosamente stimate.
+
+Il sito ufficiale è <https://cosanonmangiagruppio.com/>. I contenuti sono in italiano.
+
+## Principio
+
+Gruppio non mangia niente che vive nell'acqua. La formula sostituisce la precedente regola "non mangio animali che nuotano", perché anche i maiali possono nuotare.
+
+## Archivio dei rifiuti alimentari
+
+- Tutto ciò che vive nell'acqua: pesce, crostacei, molluschi e qualunque altra creatura abbia scelto l'acqua come casa.
+- Funghi.
+- Zucchine.
+- Spinaci.
+- Ricotta.
+
+## Alimenti stimati
+
+- Piadine col prosciutto: 3 a settimana, 200 g ciascuna.
+- Tagliatelle al ragù: 3 a settimana, 300 g ciascuna.
+- Hamburger: 2 a settimana, 250 g ciascuno.
+
+## Metodo
+
+- Data di nascita: 3 ottobre 1988.
+- Inizio delle stime alimentari: 3 ottobre 1990.
+- Le statistiche sono stime lineari, non un diario alimentare.
+- Le abitudini sono considerate costanti nel tempo.
+
+## URL canonici
+
+- Pagina principale: <https://cosanonmangiagruppio.com/>
+- Sitemap XML: <https://cosanonmangiagruppio.com/sitemap.xml>
+- Politica per crawler: <https://cosanonmangiagruppio.com/robots.txt>
